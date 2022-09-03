@@ -1,0 +1,52 @@
+
+
+.f-bg {
+    background-color: #e3f2fd;
+}
+
+.s-bg {
+    background-color: #0884f7;
+}
+ 
+.s-cl {
+    color: #0884f7;
+} 
+
+/* .visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+ */
+
+.a-file {
+    display: block;
+    height: 20px;
+    overflow: hidden;
+    position: relative;
+    /* vertical-align: middle; */
+    width: 120px;
+}
+
+
+.a-file > input {
+    cursor: pointer;
+    direction: ltr;
+    font-size: 23px;
+    margin: 0;
+    opacity: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    transform: translate(-300px, 0px) scale(4);
+}
+
+input[type="file"] {
+    display: block;
+}

@@ -1,0 +1,56 @@
+<html>
+
+    <head>
+        <title>QR CODE READER</title>
+        <link rel="stylesheet" href="css/all.min.css">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/style.css">
+        
+    </head>
+
+    <body>
+        <div class="container-fluid h-100">
+            <div class="f-bg row h-100 justify-content-center align-items-center">
+                <div class="s-bg w-25 text-center p-3">
+                    <div id="inputSection" class="bg-white p-3 rounded">
+                        <a class="a-file w-100 p-5" id="aFlie" href="">
+                            <input class="" type="file" id="inputFileToLoad" name="filename" accept="image/jpeg, image/png"
+                                value="Decode">
+                            <i class="fa-solid fa-cloud-arrow-up fs-1 "></i>
+                        </a>
+                        <p class="m-2 s-cl" id="guideTxt">Upload QR Code to Scan</p>
+
+                    </div>
+                    <div class="bg-white rounded">      
+                        <img id="displayImage" src="#" alt="your image" class="d-none" />
+                    </div>
+                    <div class="text-white border border-1 border-white mt-2 p-2 rounded d-none" id="displayInfo"></div>
+                    <div class="mt-2 d-none" id="buttonsContainer">
+                        <button class="btn btn-light ps-4 pe-4 s-cl" id="closeBtn" value="Refresh Page" >Close</button>
+                        <button class="btn btn-light ps-4 pe-4 s-cl" id="copyBtn">Copy Text</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <script type="text/javascript" src="js/src/grid.js"></script>
+        <script type="text/javascript" src="js/src/version.js"></script>
+        <script type="text/javascript" src="js/src/detector.js"></script>
+        <script type="text/javascript" src="js/src/formatinf.js"></script>
+        <script type="text/javascript" src="js/src/errorlevel.js"></script>
+        <script type="text/javascript" src="js/src/bitmat.js"></script>
+        <script type="text/javascript" src="js/src/datablock.js"></script>
+        <script type="text/javascript" src="js/src/bmparser.js"></script>
+        <script type="text/javascript" src="js/src/datamask.js"></script>
+        <script type="text/javascript" src="js/src/rsdecoder.js"></script>
+        <script type="text/javascript" src="js/src/gf256poly.js"></script>
+        <script type="text/javascript" src="js/src/gf256.js"></script>
+        <script type="text/javascript" src="js/src/decoder.js"></script>
+        <script type="text/javascript" src="js/src/qrcode.js"></script>
+        <script type="text/javascript" src="js/src/findpat.js"></script>
+        <script type="text/javascript" src="js/src/alignpat.js"></script>
+        <script type="text/javascript" src="js/src/databr.js"></script>
+        <script type="text/javascript" src="js/main.js"></script>
+    </body>
+</html>
